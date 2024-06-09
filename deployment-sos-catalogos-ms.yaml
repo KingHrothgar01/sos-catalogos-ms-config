@@ -22,7 +22,7 @@ spec:
         app: sos-catalogos-ms
     spec:
       containers:
-      - image: kinghrothgar01/sos-catalogos-ms:0.0.1.SNAPSHOT
+      - image: kinghrothgar01/sos-catalogos-ms:0.0.1-SNAPSHOT
         imagePullPolicy: IfNotPresent
         name: sos-catalogos-ms
       restartPolicy: Always
